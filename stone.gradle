@@ -177,16 +177,6 @@ generateStone {
             new StoneConfig(
                 packageName: packageName,
                 globalRouteFilter: globalRouteFilter,
-                client:  new ClientSpec(
-                    name: 'DbxTeamClientV2Base',
-                    javadoc: 'Base class for team auth clients.',
-                    requestsClassnamePrefix: 'DbxTeam',
-                    routeFilter: 'auth="team"',
-                ),
-            ),
-            new StoneConfig(
-                packageName: packageName,
-                globalRouteFilter: globalRouteFilter,
                 client: new ClientSpec(
                     name: 'DbxAppClientV2Base',
                     javadoc: 'Base class for app auth clients.',
